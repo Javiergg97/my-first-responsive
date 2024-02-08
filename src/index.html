@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="./output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+<body class="m-0 p-0 box-border md:bg-[#FFE7C2] md:items-center md:flex justify-center h-screen">
+
+  
+<section class=" container w-[375px] mx-auto bg-[#FFE7C2] md:w-[500px] md:flex">
+  <div class="img-container pt-6 pl-4 pr-4 pb-0 md:flex md:w-[50%] md:p-0">
+  <img class=" hidden md:inline-block md:rounded-l-lg" src="../images/image-product-desktop.jpg">
+  <img class="rounded-t-xl md:hidden " src="../images/image-product-mobile.jpg">
+  </div>
+
+  <div class=" text-container md:w-[50%] md:p-0 pl-4 pr-4 pb-6 flex-wrap content-center ">
+    <div class="bg-Cream rounded-b-xl p-4 md:rounded-r-lg">
+    
+      <p class="font-Montserrat mb-2 text-Darkgrayishblue tracking-[6px] 
+      text-[12px]">PERFUME</p>
+      
+      <p class="font-bold font-Fraunces text-Verydarkblue text-[30px] text-pretty leading-8">Gabrielle Essence Eau De Parfum</p>
+    
+      <p class="font-Montserrat text-[14px] text-Darkgrayishblue mt-3">A floral, solar and voluptuous<br>
+      interpretation composed by Olivier<br> Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+
+      <div class="mt-4">
+        <div class="flex items-center space-x-6">
+          <p class="h-[60px] text-[30px] text-[#547F58] font-Fraunces font-bold  items-center">$149.99</p>
+          <p class="text-[0.8rem] line-through text-Darkgrayishblue">$169.99</p>
+        </div>
+      </div>
+
+      <div class="flex justify-center mt-4"> 
+        <button class="bg-[#547F58] mr-2 mb-1 hover:bg-Darkcyan rounded-lg w-[360px] h-[40px] : text-white flex content-between items items-center justify-center font-semibold ">
+          <img class="mr-2" src="../images/icon-cart.svg">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+</div>
+</section>
+
+
+  <div class="text-center text-[#547F58] font-semibold md:hidden">
+    Challenge by <a class="text-Verydarkblue underline hover:text-blue-600" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class=" text-Verydarkblue underline hover:text-blue-600" href="https://t.me/Javierglezglez">Javier</a>.
+  </div>
+
+</body>
+</html>
